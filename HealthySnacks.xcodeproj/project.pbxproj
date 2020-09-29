@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6865B83F252324DE0067739E /* HealthySnacks.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6865B83E252324DE0067739E /* HealthySnacks.mlmodel */; };
 		A00E828E251EE30B0036EA3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E828D251EE30B0036EA3E /* AppDelegate.swift */; };
 		A00E8290251EE30B0036EA3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E828F251EE30B0036EA3E /* SceneDelegate.swift */; };
 		A00E8292251EE30B0036EA3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E8291251EE30B0036EA3E /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		A00E829A251EE30C0036EA3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00E8298251EE30C0036EA3E /* LaunchScreen.storyboard */; };
 		A00E82A5251EE30C0036EA3E /* HealthySnacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E82A4251EE30C0036EA3E /* HealthySnacksTests.swift */; };
 		A00E82B0251EE30C0036EA3E /* HealthySnacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E82AF251EE30C0036EA3E /* HealthySnacksUITests.swift */; };
+		A00E82C2251EE6210036EA3E /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E82C1251EE6210036EA3E /* VideoCapture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6865B83E252324DE0067739E /* HealthySnacks.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HealthySnacks.mlmodel; sourceTree = "<group>"; };
 		A00E828A251EE30B0036EA3E /* HealthySnacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthySnacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00E828D251EE30B0036EA3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A00E828F251EE30B0036EA3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		A00E82AB251EE30C0036EA3E /* HealthySnacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthySnacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00E82AF251EE30C0036EA3E /* HealthySnacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthySnacksUITests.swift; sourceTree = "<group>"; };
 		A00E82B1251EE30C0036EA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00E82C1251EE6210036EA3E /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,11 @@
 				A00E828F251EE30B0036EA3E /* SceneDelegate.swift */,
 				A00E8291251EE30B0036EA3E /* ViewController.swift */,
 				A00E8293251EE30B0036EA3E /* Main.storyboard */,
+				6865B83E252324DE0067739E /* HealthySnacks.mlmodel */,
 				A00E8296251EE30C0036EA3E /* Assets.xcassets */,
 				A00E8298251EE30C0036EA3E /* LaunchScreen.storyboard */,
 				A00E829B251EE30C0036EA3E /* Info.plist */,
+				A00E82C1251EE6210036EA3E /* VideoCapture.swift */,
 			);
 			path = HealthySnacks;
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00E82C2251EE6210036EA3E /* VideoCapture.swift in Sources */,
 				A00E8292251EE30B0036EA3E /* ViewController.swift in Sources */,
 				A00E828E251EE30B0036EA3E /* AppDelegate.swift in Sources */,
 				A00E8290251EE30B0036EA3E /* SceneDelegate.swift in Sources */,
+				6865B83F252324DE0067739E /* HealthySnacks.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Y2VQ245QA;
 				INFOPLIST_FILE = HealthySnacks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Y2VQ245QA;
 				INFOPLIST_FILE = HealthySnacks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
